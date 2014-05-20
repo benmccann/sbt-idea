@@ -26,7 +26,7 @@ object SbtIdeaBuild extends Build with BuildExtra {
     ),
     scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature"),
     libraryDependencies ++= Seq(
-      "commons-io" % "commons-io" % "2.0.1"
+      "commons-io" % "commons-io" % "2.4"
     )
   ) ++ addSbtPlugin("com.hanhuy.sbt" % "android-sdk-plugin" % "0.9.3" % "provided")
 
